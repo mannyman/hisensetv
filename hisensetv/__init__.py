@@ -248,24 +248,266 @@ class HisenseTv:
             app: Name of the app to launch
         """
         if app == "amazon":
-            launch = {"name": "Amazon", "urlType": 37, "storeType": 0, "url": "amazon"}
+            launch = {
+                "appIcon": "",
+                "appId": "",
+                "has_detail_page": 0,
+                "isLocalApp": 1,
+                "name": "Prime Video",
+                "storeType": 0,
+                "type": 0,
+                "url": "com.amazon.amazonvideo.livingroom",
+                "urlType": 0
+            }
 
         elif app == "netflix":
             launch = {
+                "appIcon": "",
+                "appId": "",
+                "has_detail_page": 0,
+                "isLocalApp": 1,
                 "name": "Netflix",
-                "urlType": 37,
                 "storeType": 0,
-                "url": "netflix",
+                "type": 0,
+                "url": "com.netflix.ninja",
+                "urlType": 0
             }
 
         elif app == "youtube":
             launch = {
+                "appIcon": "",
+                "appId": "",
+                "has_detail_page": 0,
+                "isLocalApp": 1,
                 "name": "YouTube",
-                "urlType": 37,
                 "storeType": 0,
-                "url": "youtube",
+                "type": 0,
+                "url": "com.google.android.youtube.tv",
+                "urlType": 0
             }
-
+            
+        elif app == "disney+":
+            launch = {
+                "appIcon": "",
+                "appId": "",
+                "has_detail_page": 0,
+                "isLocalApp": 1,
+                "name": "Disney+",
+                "storeType": 0,
+                "type": 0,
+                "url": "com.disney.disneyplus",
+                "urlType": 0
+            }
+            
+        elif app == "hulu":
+            launch = {
+                "appIcon": "",
+                "appId": "",
+                "has_detail_page": 0,
+                "isLocalApp": 1,
+                "name": "Peacock TV",
+                "storeType": 0,
+                "type": 0,
+                "url": "com.peacocktv.peacockandroid",
+                "urlType": 0
+            }
+            
+        elif app == "tubi":
+            launch = {
+                "appIcon": "",
+                "appId": "",
+                "has_detail_page": 0,
+                "isLocalApp": 1,
+                "name": "Tubi",
+                "storeType": 0,
+                "type": 0,
+                "url": "com.tubitv",
+                "urlType": 0
+            }
+            
+        elif app == "pluto_tv":
+            launch = {
+                "appIcon": "",
+                "appId": "",
+                "has_detail_page": 0,
+                "isLocalApp": 1,
+                "name": "Pluto TV",
+                "storeType": 0,
+                "type": 0,
+                "url": "tv.pluto.android",
+                "urlType": 0
+            }
+            
+        elif app == "vudu":
+            launch = {
+                "appIcon": "",
+                "appId": "",
+                "has_detail_page": 0,
+                "isLocalApp": 1,
+                "name": "VUDU",
+                "storeType": 0,
+                "type": 0,
+                "url": "air.com.vudu.air.DownloaderTablet",
+                "urlType": 0
+            }
+        
+        elif app == "hbo_max":
+            launch = {
+                "appIcon": "",
+                "appId": "",
+                "has_detail_page": 0,
+                "isLocalApp": 1,
+                "name": "HBO Max",
+                "storeType": 0,
+                "type": 0,
+                "url": "com.hbo.hbonow",
+                "urlType": 0
+            }
+        
+        
+        elif app == "youtube_music":
+            launch = {
+                "appIcon": "",
+                "appId": "",
+                "has_detail_page": 0,
+                "isLocalApp": 1,
+                "name": "YouTube_Music",
+                "storeType": 0,
+                "type": 0,
+                "url": "com.google.android.youtube.tvmusic",
+                "urlType": 0
+            }
+        
+        elif app == "iheartradio":
+            launch = {
+                "appIcon": "",
+                "appId": "",
+                "has_detail_page": 0,
+                "isLocalApp": 1,
+                "name": "iHeartRadio",
+                "storeType": 0,
+                "type": 0,
+                "url": "com.clearchannel.iheartradio.tv",
+                "urlType": 0
+            }
+        
+        elif app == "pandora":
+            launch = {
+                "appIcon": "",
+                "appId": "",
+                "has_detail_page": 0,
+                "isLocalApp": 1,
+                "name": "Pandora",
+                "storeType": 0,
+                "type": 0,
+                "url": "com.pandora.android.atv",
+                "urlType": 0
+            }
+        
+        elif app == "tidal":
+            launch = {
+                "appIcon": "",
+                "appId": "",
+                "has_detail_page": 0,
+                "isLocalApp": 1,
+                "name": "TIDAL",
+                "storeType": 0,
+                "type": 0,
+                "url": "com.aspiro.tidal",
+                "urlType": 0
+            }
+        
+        elif app == "spotify":
+            launch = {
+                "appIcon": "",
+                "appId": "",
+                "has_detail_page": 0,
+                "isLocalApp": 1,
+                "name": "Spotify",
+                "storeType": 0,
+                "type": 0,
+                "url": "com.spotify.tv.android",
+                "urlType": 0
+            }
+        
+        elif app == "vudu":
+            launch = {
+                "appIcon": "",
+                "appId": "",
+                "has_detail_page": 0,
+                "isLocalApp": 1,
+                "name": "VUDU",
+                "storeType": 0,
+                "type": 0,
+                "url": "air.com.vudu.air.DownloaderTablet",
+                "urlType": 0
+            }
+        
+        elif app == "tunein_radio":
+            launch = {
+                "appIcon": "",
+                "appId": "",
+                "has_detail_page": 0,
+                "isLocalApp": 1,
+                "name": "TuneIn Radio",
+                "storeType": 0,
+                "type": 0,
+                "url": "tunein.player",
+                "urlType": 0
+            }
+        
+        elif app == "plex":
+            launch = {
+                "appIcon": "",
+                "appId": "",
+                "has_detail_page": 0,
+                "isLocalApp": 1,
+                "name": "Plex",
+                "storeType": 0,
+                "type": 0,
+                "url": "com.plexapp.android",
+                "urlType": 0
+            }
+        
+        elif app == "mrmc":
+            launch = {
+                "appIcon": "",
+                "appId": "",
+                "has_detail_page": 0,
+                "isLocalApp": 1,
+                "name": "MrMC",
+                "storeType": 0,
+                "type": 0,
+                "url": "tv.mrmc.mrmc",
+                "urlType": 0
+            }
+        
+        elif app == "vudu":
+            launch = {
+                "appIcon": "",
+                "appId": "",
+                "has_detail_page": 0,
+                "isLocalApp": 1,
+                "name": "VUDU",
+                "storeType": 0,
+                "type": 0,
+                "url": "air.com.vudu.air.DownloaderTablet",
+                "urlType": 0
+            }
+        
+        elif app == "stadia":
+            launch = {
+                "appIcon": "",
+                "appId": "",
+                "has_detail_page": 0,
+                "isLocalApp": 1,
+                "name": "Stadia",
+                "storeType": 0,
+                "type": 0,
+                "url": "com.google.stadia.androidtv",
+                "urlType": 0
+            }
+        
         else:
             raise ValueError(f"{app} is not a known app.")
 
