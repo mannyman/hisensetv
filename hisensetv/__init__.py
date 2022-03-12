@@ -286,7 +286,7 @@ class HisenseTv:
                 "urlType": 0
             }
             
-        elif app == "disney+":
+        elif app == "disneyplus":
             launch = {
                 "appIcon": "",
                 "appId": "",
@@ -300,6 +300,19 @@ class HisenseTv:
             }
             
         elif app == "hulu":
+            launch = {
+                "appIcon": "",
+                "appId": "",
+                "has_detail_page": 0,
+                "isLocalApp": 1,
+                "name": "Disney+",
+                "storeType": 0,
+                "type": 0,
+                "url": "com.hulu.livingroomplus",
+                "urlType": 0
+            }
+            
+        elif app == "peacock_tv":
             launch = {
                 "appIcon": "",
                 "appId": "",
@@ -642,6 +655,86 @@ class HisenseTv:
     def send_key_amazon(self):
         """Sends a keypress of the Amazon key to the TV."""
         self._launch_app("amazon")
+
+    @_check_connected
+    def send_key_disneyplus(self):
+        """Sends a keypress of the disneyplus key to the TV."""
+        self._launch_app("disneyplus")
+
+    @_check_connected
+    def send_key_hulu(self):
+        """Sends a keypress of the hulu key to the TV."""
+        self._launch_app("hulu")
+
+    @_check_connected
+    def send_key_peacock_tv(self):
+        """Sends a keypress of the peacock_tv key to the TV."""
+        self._launch_app("peacock_tv")
+
+    @_check_connected
+    def send_key_tubi(self):
+        """Sends a keypress of the tubi key to the TV."""
+        self._launch_app("tubi")
+
+    @_check_connected
+    def send_key_pluto_tv(self):
+        """Sends a keypress of the pluto_tv key to the TV."""
+        self._launch_app("pluto_tv")
+
+    @_check_connected
+    def send_key_vudu(self):
+        """Sends a keypress of the vudu key to the TV."""
+        self._launch_app("vudu")
+
+    @_check_connected
+    def send_key_hbo_max(self):
+        """Sends a keypress of the hbo_max key to the TV."""
+        self._launch_app("hbo_max")
+
+    @_check_connected
+    def send_key_youtube_music(self):
+        """Sends a keypress of the youtube_music key to the TV."""
+        self._launch_app("youtube_music")
+
+    @_check_connected
+    def send_key_iheartradio(self):
+        """Sends a keypress of the iheartradio key to the TV."""
+        self._launch_app("iheartradio")
+
+    @_check_connected
+    def send_key_pandora(self):
+        """Sends a keypress of the pandora key to the TV."""
+        self._launch_app("pandora")
+
+    @_check_connected
+    def send_key_tidal(self):
+        """Sends a keypress of the tidal key to the TV."""
+        self._launch_app("tidal")
+
+    @_check_connected
+    def send_key_spotify(self):
+        """Sends a keypress of the spotify key to the TV."""
+        self._launch_app("spotify")
+
+    @_check_connected
+    def send_key_tunein_radio(self):
+        """Sends a keypress of the tunein_radio key to the TV."""
+        self._launch_app("tunein_radio")
+
+    @_check_connected
+    def send_key_plex(self):
+        """Sends a keypress of the plex key to the TV."""
+        self._launch_app("plex")
+
+    @_check_connected
+    def send_key_mrmc(self):
+        """Sends a keypress of the mrmc key to the TV."""
+        self._launch_app("mrmc")
+
+    @_check_connected
+    def send_key_stadia(self):
+        """Sends a keypress of the stadia key to the TV."""
+        self._launch_app("stadia")
 
     @_check_connected
     def send_key_0(self):
