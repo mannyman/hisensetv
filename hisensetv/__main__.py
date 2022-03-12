@@ -51,7 +51,7 @@ def main():
             "netflix",
             "youtube",
             "amazon",
-            "disney+",
+            "disneyplus",
             "hulu",
             "peacock_tv",
             "tubi",
